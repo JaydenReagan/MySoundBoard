@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgBayonetta"
+        android:layout_width="99dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgLink"
+        app:layout_constraintEnd_toStartOf="@+id/imgIke"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bayonetta" />
+
+    <ImageView
+        android:id="@+id/imgIke"
+        android:layout_width="98dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgLucas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ike" />
+
+    <ImageView
+        android:id="@+id/imgKirby"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgMario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgIke"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kirby" />
+
+    <ImageView
+        android:id="@+id/imgLink"
+        android:layout_width="97dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgLucas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/link" />
+
+    <ImageView
+        android:id="@+id/imgLucas"
+        android:layout_width="97dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lucas" />
+
+    <ImageView
+        android:id="@+id/imgMario"
+        android:layout_width="97dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgLucas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mario" />
+
+    <ImageView
+        android:id="@+id/imgPit"
+        android:layout_width="97dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgSonic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLink"
+        app:srcCompat="@drawable/pit" />
+
+    <ImageView
+        android:id="@+id/imgSonic"
+        android:layout_width="97dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLucas"
+        app:srcCompat="@drawable/sonic" />
+
+    <ImageView
+        android:id="@+id/imgSora"
+        android:layout_width="97dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgSonic"
+        app:layout_constraintTop_toBottomOf="@+id/imgMario"
+        app:srcCompat="@drawable/sora" />
+</androidx.constraintlayout.widget.ConstraintLayout>
